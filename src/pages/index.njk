@@ -1,0 +1,11 @@
+---
+title: Have I Been Pwned
+permalink: /
+layout: layouts/base.njk
+---
+
+<ol>
+  {% for breach in hibp %}
+  <li>{{ breach.Title }} &mdash; <em>{{ breach.PwnCount | human_readable_numbers }}</em> &mdash; {{ breach.PwnCount | locale_number }}</li>
+  {%- endfor %}
+</ol>
