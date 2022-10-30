@@ -9,7 +9,7 @@
   "dependencies": {},
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "human-readable-numbers": "^0.9.5"
   },
   "homepage": "https://github.com/pdehaan/11ty-filter-human-readable-numbers#readme",
