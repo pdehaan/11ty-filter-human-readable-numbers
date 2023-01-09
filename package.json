@@ -8,7 +8,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy": "^1.0.2",
     "axios": "^0.21.2",
     "human-readable-numbers": "^0.9.5"
   },
